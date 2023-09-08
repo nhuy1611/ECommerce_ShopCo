@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.inder-600 {
+    font-family: 'inder';
+    font-weight: 600;
+}
+
+.abeezee{
+    font-family: ABeeZee;
+}
+
+  
+.nav-bar{
+    height: 12vh;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    padding: 43px 100px;
+    .logo{
+        font-size: 32px;
+    }
+    .me-auto{
+        margin-left: 40px;
+        gap: 24px;
+        .nav-link{
+            color: #000000;
+        }      
+    }
+    .fa{
+        font-size: 24px;
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        padding: 12px 16px;
+        height: 48px;
+        border-radius: 62px;
+        background: #F0F0F0;
+        display: flex;
+        margin-left: 40px;
+        width: 45%;
+        .text-search{
+            background: #F0F0F0;
+            border-color: #F0F0F0;
+            margin: 0 12px;
+            color: rgba(0, 0, 0, 0.40);
+        }
+        .fa-search{
+            margin-left: 16px;
+            color: rgba(0, 0, 0, 0.40);
+        }
+    }
+    .fa-shopping-bag{
+        margin-left: 40px;
+    }
+    .fa-user{
+        margin-left: 14px;
+    }
+}
+
+.home{
+    background-color: #F2F0F1;
+    background-image: url('./assets/img/home.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 88vh;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        font-size: 64px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 64px;
+        margin-bottom: 32px;
+        color: #000;
+    }
+    p{
+        margin-bottom: 10px;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: ABeeZee;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .button-shop{
+        width: 210px;
+        height: 52px;
+        padding: 16px 54px;
+        border-radius: 62px;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 48px;
+        color: #FFF;
+        font-family: ABeeZee;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+    }
+    .about-brand{
+        display: flex;
+        gap: 32px;
+        h3{
+            color: #000;
+            font-family: ABeeZee;
+            font-size: 40px;
+            font-style: italic;
+            font-weight: 400;
+        }
+    }
+    .line{
+        width: 2px;
+        height: 80%;
+        background: rgba(0, 0, 0, 0.10);
+    }
+}
+
+.brand-logo{
+    height: 122px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.browse-by-style{
+    height: 866px;
+    background: #F0F0F0;
+    margin: 80px 100px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        color: #000;
+        text-align: center;
+        font-family: ABeeZee;
+        font-size: 48px;
+        font-style: italic;
+        font-weight: 400;
+    }
+    
+}
+
+.comment{
+    height: 500px;
+}
+
+.footer{
+    height: 500px;
+    background: #F0F0F0;
+}
+
+
+  
+  
+  
+  
+  
